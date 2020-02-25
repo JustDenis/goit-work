@@ -1,4 +1,11 @@
 img{
     width: 300px;
-    border-radius: 50%;
+    
+}
+.cat{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    background: #c2c2c2;
 }
