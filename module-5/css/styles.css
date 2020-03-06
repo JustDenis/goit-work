@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-wrap{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    background: url(/img/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    display: inline-block;
+    background-color: rgba(256, 256, 256, 0.5);
+    /* background-image: linear-gradient(to left bottom,skyblue 45%, rgba(256,0,0,1) 55%); */
+    width: 400px;
+    min-height: 400px;
+    margin: 13px;
+}
+
+p{
+    font-size: 2rem;
+}
+
+p::before{
+    content: "\00ab";
+}
+
+p::after{
+    content: "\00bb";
+}
+
+/* .box:nth-child(odd){
+    background-image: linear-gradient(to right  bottom,skyblue 45%, green 55%);
+} */
