@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 200px;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    /* width: 33%; */
+}
+
+.sport-col{
+    display: block;
+}
