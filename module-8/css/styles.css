@@ -1,0 +1,64 @@
+
+
+div{
+    width: 100px;
+    height: 100px;
+    /* background: #000; */
+    margin: 5px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;    
+    margin: 0 auto;
+    height: 500px;
+}
+
+.c1{
+    background: #000;
+}
+.c2{
+    background: #111;
+}
+.c3{
+    background: #222;
+}
+.c4{
+    background: #333
+}
+.c5{
+    background: #444
+}
+.c6{
+    background: #555
+}
+.c7{
+    background: #666
+}
+.c8{
+    background: #777
+}
+.c9{
+    background: #888
+}
+.c10{
+    background: #999
+}
+.c11{
+    background: #aaa
+}
+.c12{
+    background: #bbb
+}
+.c13{
+    background: #ccc
+}
+.c14{
+    background: #ddd
+}
+.c15{
+    background: #eee
+}
