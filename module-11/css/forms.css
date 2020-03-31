@@ -1,0 +1,11 @@
+.wrap{
+    margin: 0 auto;
+    width: 500px;
+    background: #d4d4d4;
+}
+
+.formOne{
+    width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c2c2c2;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+td, th{
+    border: 1px solid #000;
+    background: #d4d4d4;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px #727272;
+}
+
+tr:nth-of-type(odd) td{
+    background: white;
+}
+
+tr td:hover{
+    background: teal;
+}
+
+.productTable{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 30px auto auto auto;
+    border-collapse: collapse;
+
+}
